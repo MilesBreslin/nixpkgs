@@ -141,6 +141,7 @@ stdenv.mkDerivation rec {
       "--enable-libx264"
       "--enable-libxvid"
       "--enable-zlib"
+      "--enable-libass"
       (ifMinVer "2.8" "--enable-libopus")
       "--enable-libspeex"
       (ifMinVer "2.8" "--enable-libx265")
